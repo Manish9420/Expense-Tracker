@@ -24,7 +24,7 @@ function ExpenseForm({ onAddExpense }) {
 
 
   return (
-    <form class="expense-form" onSubmit={handleSubmit}>
+    <form className="expense-form" onSubmit={handleSubmit}>
 			<input 
 			placeholder="Expense Title" 
 			type="text" 
